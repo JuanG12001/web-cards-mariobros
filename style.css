@@ -10,10 +10,10 @@
   max-width: 1400px;
   margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #161b31;
-  background-image: url("public/assets/backgraund.jpg");
+  
+  background-image: linear-gradient(#090d17a0,#090d178d), url("public/assets/backgraund.jpg");
   background-repeat:no-repeat;
-  background-size: cover;
+  background-size: contain;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, max-content);
@@ -31,7 +31,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0px 60px;
-  background-color: #161b31ca;
+  background-color: #161b3176;
 
 }
 
@@ -94,9 +94,9 @@
 }
 
 .money{
-  border-bottom: 3px solid #8d8b8b;
-  border-left: 3px solid #8d8b8b;
-  border-top: 3px solid #8d8b8b;
+  border-bottom: 2px solid #8d8b8b;
+  border-left: 2px solid #8d8b8b;
+  border-top: 2px solid #8d8b8b;
   border-radius: 50px;
   /* opacity: 0; */
 }
@@ -118,7 +118,7 @@
   background: linear-gradient(#4193DE,#2878c3);
   color: white;
   position: absolute;
-  margin-left: 105px;
+  margin-left: 100px;
   z-index: 100px;
   cursor: pointer;
 }
@@ -126,7 +126,7 @@
 .icon__avatar1 {
   width: 60px;
   height: 70px;
-  margin-left: 10px;
+  margin-left: 5px;
   border-radius: 50%;
   border: 3px solid black;
   object-fit: cover;
@@ -160,9 +160,9 @@
 
 
 .home{
+  display: grid;
   grid-area: home;
   width: 100%;
-  
   height: 69vh;
 }
 
@@ -174,8 +174,101 @@
 
 .footer{
   grid-area: footer;
-  background-color: #12171B;
+  background-color: #0A0F15;
   width: 100%;
   height: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 
+}
+
+
+.logo--footer{
+  margin: 0px;
+  padding: 0px 80px;
+}
+
+.nav{
+  margin-right: 10px;
+}
+
+.nav__ul--footer{
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.nav--top{
+  margin-bottom: 40px;
+}
+
+.list__nav--footer{
+  font-size: 10px;
+}
+
+.redes{
+  font-size: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 20px;
+  color: white;
+}
+
+.redes__link{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.icon__home--redes{
+  margin-top: 25px;
+  width: 40px;
+  height: 40px;
+  color: white;
+}
+
+.linkedin{
+  background: #376999;
+}
+
+.twitter{
+  background: #2e2e2e;
+}
+
+.instagram{
+  background: linear-gradient(#EC2D7B,#f1e14b);
+}
+
+.youtube{
+  background: red;
+}
+
+.membresia{
+  width: 240px;
+  height: 120px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-left: 35px;
+  background: #111d25;
+  border: 2px dashed rgb(119, 119, 119);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.membresia_escudo{
+  width: 60px;
+}
+
+
+.membresia__text{
+  color: white;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.membresia__text3{
+  color: #4193DE;
 }
