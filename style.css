@@ -203,6 +203,7 @@ body{
   margin-left: 110px;
   transform: rotate(40deg) scaleX(-1);
   user-select: none;
+  filter: drop-shadow(0 0 2em #373fe2aa);
 }
 
 
@@ -213,6 +214,7 @@ body{
   margin-left: 85px;
   transform: rotate(15deg);
   user-select: none;
+  filter: drop-shadow(0 0 2em #c664ffaa);
 }
 
 .bowser__img{
@@ -222,6 +224,7 @@ body{
   margin-left: 250px;
   transform: rotate(2deg);
   user-select: none;
+  filter: drop-shadow(0 0 2em #f17426aa);
 }
 
 
