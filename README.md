@@ -17,6 +17,6 @@ Pasos para ejecutar el proyecto:
 ![Imagen de fondo](/public/assets/web-backgraund.jpg)
 
 
-## Pagina web-original
+## Diseño UI/UX 
 1. https://dribbble.com/shots/5966416-Game-Lottery
 
