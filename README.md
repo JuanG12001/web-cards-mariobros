@@ -13,5 +13,5 @@ Pasos para ejecutar el proyecto:
 2. Tomar la carpeta ```dist``` y desplegarla
 
 
-
+## vista previa-web
 ![Imagen de fondo](/public/assets/web-backgraund.jpg)
