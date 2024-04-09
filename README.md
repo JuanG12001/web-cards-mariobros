@@ -14,4 +14,4 @@ Pasos para ejecutar el proyecto:
 
 
 
-![Imagen de fondo](web-background.jpg)
+![Imagen de fondo](/public/assets/web-backgraund.jpg)
