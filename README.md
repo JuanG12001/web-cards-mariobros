@@ -13,5 +13,10 @@ Pasos para ejecutar el proyecto:
 2. Tomar la carpeta ```dist``` y desplegarla
 
 
-## vista previa-web
+## Vista previa-web
 ![Imagen de fondo](/public/assets/web-backgraund.jpg)
+
+
+## Pagina web-original
+1. https://dribbble.com/shots/5966416-Game-Lottery
+
