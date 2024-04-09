@@ -14,4 +14,4 @@ Pasos para ejecutar el proyecto:
 
 
 
-![https://www.freelancer.es/u/JuanGarcia12001?frm=JuanGarcia12001&sb=t](web-backgraund.jpg)
+![Imagen de fondo](web-background.jpg)
